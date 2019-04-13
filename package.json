@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-vuejs-socketio-chat",
+  "version": "1.0.0",
+  "description": "web-chat",
+  "main": "server.js",
+  "engines":{
+    "node": "11.14.0"
+  },
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "socketio",
+    "vuejs",
+    "chat"
+  ],
+  "author": "VVE12",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  }
+}
